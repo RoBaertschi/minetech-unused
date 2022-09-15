@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "minetech",
+  "version": "${version}",
+  "name": "MineTech",
+  "description": "Automate everything you need.",
+  "authors": [
+    "RoBaertschi"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/minetech/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.robaertschi.minetech.client.MineTechClient"
+    ],
+    "main": [
+      "io.github.robaertschi.minetech.MineTech"
+    ]
+  },
+  "mixins": [
+    "minetech.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
