@@ -1,5 +1,6 @@
 package io.github.robaertschi.minetech;
 
+import io.github.robaertschi.minetech.block.MineTechBlocks;
 import io.github.robaertschi.minetech.item.MineTechItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -14,5 +15,6 @@ public class MineTech implements ModInitializer {
     @Override
     public void onInitialize() {
         MineTechItems.registerModItems();
+        MineTechBlocks.registerModBlocks();
     }
 }

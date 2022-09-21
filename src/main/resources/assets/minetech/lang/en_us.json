@@ -1,5 +1,10 @@
 {
   "item.minetech.tin_ingot": "Tin Ingot",
+  "item.minetech.raw_tin": "Raw Tin",
+  "item.minetech.tin_nugget": "Tin Nugget",
+
+  "block.minetech.tin_ore": "Tin Ore",
+  "block.minetech.deepslate_tin_ore": "Deepslate Tin Ore",
 
   "itemGroup.minetech.mine_tech_item_group": "MineTech"
 }

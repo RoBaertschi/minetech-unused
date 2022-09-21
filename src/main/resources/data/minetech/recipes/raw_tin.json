@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "raw_tin",
+  "ingredients": [
+    {
+      "tag": "c:tin_ores"
+    }
+  ],
+  "result": {
+    "item": "minetech:raw_tin",
+    "count": 1
+  }
+}
